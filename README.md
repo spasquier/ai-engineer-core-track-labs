@@ -9,6 +9,8 @@ Execute `uv sync`
 
 You can use `pip install -r requirements.txt` but it's much more slower.
 
+TO update requirements.txt run `uv export --no-hashes --format requirements-txt > requirements.txt`
+
 ## Setting up environment
 You need to create a `.env` file in the root of the project.
 
